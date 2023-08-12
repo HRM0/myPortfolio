@@ -3,9 +3,22 @@ import React from "react";
 const Welcome = () => {
 
     return (
-        <div>
-            this will be a spot for a welcome note to everyone
-        </div>
+        <section>
+            <div className="welcomeInner">
+                <p>
+                    Weclome!
+                </p>
+                <div className='quote'>
+                    <p>
+                        “You have to realistic about these things.”
+                    </p>
+                    <p>
+                        -Logan Nine Fingers
+                    </p>
+                </div>
+            </div>
+            <div className="bottomBorder"></div>
+        </section>
     )
 }
 

@@ -7,10 +7,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Welcome />
-      <div className='text-3xl font-bold underline'>
-        hello world
-      </div>
+      <main>
+        <Welcome />
+      </main>
     </>
   )
 }

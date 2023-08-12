@@ -3,3 +3,62 @@
 @tailwind utilities;
 
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #2D3B36 ;
+    color: #F4F4F0;
+}
+
+nav > ul {
+    display: flex;
+}
+
+li {
+    padding:0 1em;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #7B8C83;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height:50%;
+}
+
+.welcomeInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width:80%;
+    height: 40%;
+    margin: auto;
+    background-color: #BBA16E;
+    border: 1em solid #F4F4F0;
+}
+
+.quote {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.bottomBorder {
+    margin:auto;
+    width:60%;
+    border-bottom: 1px solid black;
+}
