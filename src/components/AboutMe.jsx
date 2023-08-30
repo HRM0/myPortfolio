@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
     return (
         <section>
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <div className="welcomeInner">
                 <p className="aboutMe">
                     I'm a pretty simple guy who grew up in California and moved out to NYC to join a band. After 10 years of being an accountant by day and a musician by night, 

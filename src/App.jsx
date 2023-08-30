@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Welcome from "./components/Welcome"
 import AboutMe from "./components/AboutMe"
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Welcome />
         <AboutMe />
+        <Projects />
       </main>
     </>
   )
