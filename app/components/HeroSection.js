@@ -15,7 +15,7 @@ const HeroSection = () => {
                     transition={{duration:0.5}} 
                     className='col-span-8 place-self-center text-center sm:text-left justify-self-start'
                 >
-                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold'>
+                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold'>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C2FFD8] to-[#4C83FF]">
                             Hello, I'm{" "}
                         </span>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                                 1000, 
                                 'a Web Developer',
                                 1000,
-                                'a Software Developer',
+                                'a Software Engineer',
                                 1000,
                                 'a Musician',
                                 1000

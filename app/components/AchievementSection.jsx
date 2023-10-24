@@ -18,17 +18,17 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "Users",
-    value: "100,000",
+    value: "100000",
   },
   {
     metric: "Spotify Plays",
-    value: "10,000",
-    postfix: "+",
+    value: "10",
+    postfix: "K+",
   },
   {
     metric: "Youtube Views",
-    value: "150,000",
-    postfix: "+",
+    value: "150",
+    postfix: "K+",
   },
 ];
 
