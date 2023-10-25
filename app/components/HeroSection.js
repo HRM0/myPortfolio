@@ -3,6 +3,7 @@ import React from "react";
 import Image from 'next/image'
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 const HeroSection = () => {
@@ -38,12 +39,22 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Welcome to my portfolio. From our screens to the stage, I aim to provide users with the best experience possible. 
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black bg-gradient-to-r  from-[#C2FFD8] via-blue-400 to-[#4C83FF]">Hire Me</button>
+                        <Link 
+                            href='#contact'
+                            title="Contact"
+                            className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black bg-gradient-to-r  from-[#C2FFD8] via-blue-400 to-[#4C83FF]">
+                            Hire Me
+                        </Link>
                         <button className="px-1 py-1 w-full rounded-full sm:w-fit bg-transparent hover:bg-slate-800 text-white mt-3 bg-gradient-to-r  from-[#C2FFD8]  via-blue-400 to-[#4C83FF]">
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download Resume</span>
+                            <a className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"
+                               href="resume/RobertHess_Resume.docx.pdf"
+                               download="Resume"
+                               alt="download resume button"
+                               target="_blank"
+                               rel="noopener noreferrer">Download Resume</a>
                         </button>
                     </div>
                 </motion.div>

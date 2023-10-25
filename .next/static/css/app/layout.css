@@ -843,18 +843,18 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(71 85 105 / var(--tw-border-opacity));
 }
+.border-b-transparent {
+  border-bottom-color: transparent;
+}
+.border-l-transparent {
+  border-left-color: transparent;
+}
 .border-r-transparent {
   border-right-color: transparent;
 }
 .border-t-\[\#33353F\] {
   --tw-border-opacity: 1;
   border-top-color: rgb(51 53 63 / var(--tw-border-opacity));
-}
-.border-l-transparent {
-  border-left-color: transparent;
-}
-.border-b-transparent {
-  border-bottom-color: transparent;
 }
 .bg-\[\#121212\] {
   --tw-bg-opacity: 1;
