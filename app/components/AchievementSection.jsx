@@ -18,7 +18,8 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "Users",
-    value: "100000",
+    value: "40",
+    postfix: "+",
   },
   {
     metric: "Spotify Plays",
