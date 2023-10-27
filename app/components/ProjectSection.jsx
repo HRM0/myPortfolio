@@ -18,7 +18,7 @@ const projectsData = [
         id:1,
         title:"Mass Pro Shops",
         description: "An extensive e-commerce website allowing users to select from a range of product options. Users can create a profile, save items to their cart and checkout. A fully functional backend allows admins to create, update and edit products and users. We utilized the Stripe API for a complete checkout system.",
-        image:"/images/massPro.jpeg",
+        image:"/images/massPro.png",
         tag:["All","ECommerce","Web"],
         gitUrl: "https://github.com/mass-pro-shops/grace-shopper",
         previewUrl: "https://two303-mass-pro-shops.onrender.com/home"
