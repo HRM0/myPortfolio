@@ -620,9 +620,6 @@ video {
 .top-3\/4 {
   top: 75%;
 }
-.left-1 {
-  left: 0.25rem;
-}
 .z-0 {
   z-index: 0;
 }
@@ -797,9 +794,6 @@ video {
 }
 .gap-8 {
   gap: 2rem;
-}
-.place-self-end {
-  place-self: end;
 }
 .place-self-center {
   place-self: center;
@@ -1189,10 +1183,6 @@ body {
 
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:place-self-center {
-    place-self: center;
   }
 
   .sm\:border {

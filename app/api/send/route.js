@@ -7,7 +7,7 @@ const toEmail = process.env.TO_EMAIL
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+  
   
   try {
     const data = await resend.emails.send({
@@ -23,7 +23,7 @@ export async function POST(req, res) {
         </>
       )
     });
-
+    
     return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json({ error });
