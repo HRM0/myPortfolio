@@ -58,7 +58,7 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </motion.div>
-                <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
+                <div className='col-span-4 place-self-center lg:place-self-left mt-4 lg:mt-0'>
                     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
                         <Image 
                             src='/images/noback.png'
