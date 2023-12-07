@@ -31,6 +31,14 @@ const projectsData = [
         tag:["All","Productivity","Web"],
         gitUrl: "https://github.com/JourneyPath/hyperDrive",
         previewUrl: "https://journeypath-17d60.web.app/"
+    },
+    {
+        id:3,
+        title:"Auto Cookie Clikcer",
+        description: "This app automates the classic cookie clicker game for you. Love see the numbers go up and your cookie empire grow, but hate finger strain and threat of tendonitis? This is the app for you! Simply run and let the app do the work for you.",
+        image:"/images/cookie.png",
+        tag:["All","Games","Web","Python"],
+        gitUrl: "https://github.com/HRM0/AutoCookieClicker"
     }
 ]
 
@@ -70,6 +78,11 @@ const ProjectSection = () => {
                     onClick={handleTagChange} 
                     name="Games" 
                     isSelected={tag === 'Games'} 
+                />
+                <ProjectTag 
+                    onClick={handleTagChange} 
+                    name="Python" 
+                    isSelected={tag === 'Python'} 
                 />
             </div>
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
