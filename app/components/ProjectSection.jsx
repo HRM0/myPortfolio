@@ -38,7 +38,8 @@ const projectsData = [
         description: "This app automates the classic cookie clicker game for you. Love see the numbers go up and your cookie empire grow, but hate finger strain and threat of tendonitis? This is the app for you! Simply run and let the app do the work for you.",
         image:"/images/cookie.png",
         tag:["All","Games","Web","Python"],
-        gitUrl: "https://github.com/HRM0/AutoCookieClicker"
+        gitUrl: "https://github.com/HRM0/AutoCookieClicker",
+        previewUrl: "https://github.com/HRM0/AutoCookieClicker"
     }
 ]
 
