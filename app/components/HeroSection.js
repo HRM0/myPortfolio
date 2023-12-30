@@ -16,7 +16,7 @@ const HeroSection = () => {
                     transition={{duration:0.5}} 
                     className='col-span-8 place-self-center text-center sm:text-left justify-self-start'
                 >
-                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold'>
+                    <h1 className='text-white mb-4 text-3xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold'>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C2FFD8] to-[#4C83FF]">
                             Hello, I'm{" "}
                         </span>
@@ -45,7 +45,9 @@ const HeroSection = () => {
                         <Link 
                             href='#contact'
                             title="Contact"
-                            className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black bg-gradient-to-r  from-[#C2FFD8] via-blue-400 to-[#4C83FF]">
+                            className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black bg-gradient-to-r  from-[#C2FFD8] via-blue-400 to-[#4C83FF]"
+                            style={{ display: 'inline-block' }}
+                        >
                             Hire Me
                         </Link>
                         <button className="px-1 py-1 w-full rounded-full sm:w-fit bg-transparent hover:bg-slate-800 text-white mt-3 bg-gradient-to-r  from-[#C2FFD8]  via-blue-400 to-[#4C83FF]">
