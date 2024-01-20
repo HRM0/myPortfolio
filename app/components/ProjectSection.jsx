@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
-        id:0,
+        id:2,
         title:"Shadows of Eternia",
         description: "An exciting online multiplayer dungeon crawler game. Play as one of four different heroes to battle your way through different monsters in order to keep your village safe! We utilized Typescript, Firebase, Phaser 3 and React to bring this action role playing game to life on the web.",
         image: "/images/shadows.png",
@@ -15,7 +15,7 @@ const projectsData = [
         previewUrl: "https://fir-frontend-ece3c.web.app/game"
     },
     {
-        id:1,
+        id:0,
         title:"Mass Pro Shops",
         description: "An extensive e-commerce website allowing users to select from a range of product options. Users can create a profile, save items to their cart and checkout. A fully functional backend allows admins to create, update and edit products and users. We utilized the Stripe API for a complete checkout system.",
         image:"/images/massPro.png",
@@ -24,7 +24,7 @@ const projectsData = [
         previewUrl: "https://massprostatic.onrender.com/"
     },
     {
-        id:2,
+        id:1,
         title:"hyperDrive",
         description: "hyperDrive is a site we designed, built, and deployed to help users overcome planning obstacles when seeking to achieve a goal. After answering four simple prompts (role, goal, start date, and end date), hyperDrive will provide a customized action plan, within the user's timeline, to help the user accomplish their goal.",
         image:"/images/hyperDrive.png",
