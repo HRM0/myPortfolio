@@ -6,15 +6,6 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
-        id:2,
-        title:"Shadows of Eternia",
-        description: "An exciting online multiplayer dungeon crawler game. Play as one of four different heroes to battle your way through different monsters in order to keep your village safe! We utilized Typescript, Firebase, Phaser 3 and React to bring this action role playing game to life on the web.",
-        image: "/images/shadows.png",
-        tag:["All","Games","Web"],
-        gitUrl: "https://github.com/wizard-dev-gang/shadowsofeternia",
-        previewUrl: "https://fir-frontend-ece3c.web.app/game"
-    },
-    {
         id:0,
         title:"Mass Pro Shops",
         description: "An extensive e-commerce website allowing users to select from a range of product options. Users can create a profile, save items to their cart and checkout. A fully functional backend allows admins to create, update and edit products and users. We utilized the Stripe API for a complete checkout system.",
@@ -31,6 +22,15 @@ const projectsData = [
         tag:["All","Productivity","Web"],
         gitUrl: "https://github.com/JourneyPath/hyperDrive",
         previewUrl: "https://journeypath-17d60.web.app/"
+    },
+    {
+        id:2,
+        title:"Shadows of Eternia",
+        description: "An exciting online multiplayer dungeon crawler game. Play as one of four different heroes to battle your way through different monsters in order to keep your village safe! We utilized Typescript, Firebase, Phaser 3 and React to bring this action role playing game to life on the web.",
+        image: "/images/shadows.png",
+        tag:["All","Games","Web"],
+        gitUrl: "https://github.com/wizard-dev-gang/shadowsofeternia",
+        previewUrl: "https://fir-frontend-ece3c.web.app/game"
     },
     {
         id:3,
