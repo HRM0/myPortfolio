@@ -18,7 +18,7 @@ const projectsData = [
         id:1,
         title:"AILearnLab",
         description: "AI Learn Lab is a site dedicated to expanding your knowledge on a subject of your choice. Simply request a lesson plan and follow the guidance provided to gain a new understanding of your subject.",
-        image:"/images/AIlean.png",
+        image:"/images/AI_white.png",
         tag:["All","Productivity","Web"],
         gitUrl: "https://github.com/deep-dive-devs/AILearnLab",
         previewUrl: "https://ailearnlab.vercel.app/auth/login"
