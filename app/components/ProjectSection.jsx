@@ -16,6 +16,15 @@ const projectsData = [
     },
     {
         id:1,
+        title:"AILearnLab",
+        description: "AI Learn Lab is a site dedicated to expanding your knowledge on a subject of your choice. Simply request a lesson plan and follow the guidance provided to gain a new understanding of your subject.",
+        image:"/images/AIlean.png",
+        tag:["All","Productivity","Web"],
+        gitUrl: "https://github.com/deep-dive-devs/AILearnLab",
+        previewUrl: "https://ailearnlab.vercel.app/auth/login"
+    },
+    {
+        id:2,
         title:"hyperDrive",
         description: "hyperDrive is a site we designed, built, and deployed to help users overcome planning obstacles when seeking to achieve a goal. After answering four simple prompts (role, goal, start date, and end date), hyperDrive will provide a customized action plan, within the user's timeline, to help the user accomplish their goal.",
         image:"/images/hyperDrive.png",
@@ -24,7 +33,7 @@ const projectsData = [
         previewUrl: "https://journeypath-17d60.web.app/"
     },
     {
-        id:2,
+        id:3,
         title:"Shadows of Eternia",
         description: "An exciting online multiplayer dungeon crawler game. Play as one of four different heroes to battle your way through different monsters in order to keep your village safe! We utilized Typescript, Firebase, Phaser 3 and React to bring this action role playing game to life on the web.",
         image: "/images/shadows.png",
@@ -33,7 +42,7 @@ const projectsData = [
         previewUrl: "https://fir-frontend-ece3c.web.app/game"
     },
     {
-        id:3,
+        id:4,
         title:"Auto Cookie Clicker",
         description: "This app automates the classic cookie clicker game for you. Love see the numbers go up and your cookie empire grow, but hate finger strain and threat of tendonitis? This is the app for you! Simply run and let the app do the work for you.",
         image:"/images/cookie.png",
